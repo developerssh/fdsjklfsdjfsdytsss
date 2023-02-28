@@ -57,7 +57,7 @@ AUDIO_FORMAT = os.getenv("AUDIO_FORMAT")
 ARCHIVE_ID = os.getenv("ARCHIVE_ID")
 
 IPv6 = os.getenv("IPv6", False)
-ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", True)
+ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", False)
 # 0.01 means basically no limit
 RATE = float(os.getenv("RATE", 0.01))
 BURST = int(os.getenv("BURST", 3))
